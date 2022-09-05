@@ -1,3 +1,20 @@
-Completed on 05/09/2022
-https://ironscripter.us/a-powershell-warm-up-exercise/
+#Completed on 05/09/2022
+#https://ironscripter.us/a-powershell-warm-up-exercise/
 
+#First set variable
+
+$PS = "Powershell"
+
+#Break string into character array
+
+$PSa = $PS.ToCharArray()
+
+#Now reverse the array
+
+[array]::Reverse($PSa)
+
+#Now join array back to a string, in a new variable
+
+$Final = -join($PSa)
+
+$final
